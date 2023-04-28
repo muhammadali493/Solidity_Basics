@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/Overflow.sol": "OverflowDemo"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/Overflow.sol": {
+			"keccak256": "0x354cda8dc29fbea0a07ca23ddaeb120cd9dc9692d5e6c66934febeee30f4ee6f",
+			"urls": [
+				"bzzr://6e15d3edab7d67d35476988f5a89498caa652e139da747a0434902ad2816e3f2"
+			]
+		}
+	},
+	"version": 1
+}

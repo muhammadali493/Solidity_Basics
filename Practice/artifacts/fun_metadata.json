@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newAge",
+						"type": "uint256"
+					}
+				],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/functions.sol": "fun"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/functions.sol": {
+			"keccak256": "0xa5348421fe54e17ce46d5997e81c78583424e037add1796757fd0d82861bec7e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f68dfe365ce13bbfb27a7212cd15596b54eb5ca058279fdf927f7bc8d1f471ea",
+				"dweb:/ipfs/QmZdT9bk6LAfSrVn2JaqQQvq9chdiUELyinzw4KpJgiYUK"
+			]
+		}
+	},
+	"version": 1
+}
